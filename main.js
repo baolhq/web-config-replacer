@@ -17,8 +17,8 @@ replBtn.addEventListener("click", () => {
 
   configTxt = []
   let arr = input.value.split("\n");
-  let database = db.value.split("\\")[0];
-  let dbServer = db.value.split("\\")[1];
+  let database = db.value.split("\\")[1];
+  let dbServer = db.value.split("\\")[0];
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].includes(`<add key="DataAccess.Database"`)) {
