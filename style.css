@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 24px;
+}
+
+textarea {
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 8px;
+    width: 40%;
+    white-space: pre;
+}
+
+textarea:read-only {
+    background: rgb(202, 202, 202);
+    cursor: not-allowed;
+}
+
+button {
+    background: none;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 4px;
+    padding: 4px 8px;
+    transition: all .2s ease;
+}
+
+button:hover {
+    border: 1px solid rgba(0, 0, 255, 0.322);
+    cursor: pointer;
+}
+
+input {
+    background: none;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: all .2s ease;
+}
+
+input:focus {
+    border: 1px solid rgba(0, 0, 255, 0.322);
+}
+
+.info {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 8px;
+}
