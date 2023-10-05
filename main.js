@@ -1,6 +1,6 @@
 let replBtn = document.querySelector("#repl");
 let copyBtn = document.querySelector("#copy");
-let clearBtn = document.querySelector("#clear");
+let clearBtn = document.querySelector("#clr");
 let input = document.querySelector("#input");
 let output = document.querySelector("#output");
 let db = document.querySelector("#db");
